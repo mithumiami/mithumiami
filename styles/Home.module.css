@@ -1,3 +1,48 @@
+.container{
+  font-family: 'Raleway'!important;
+}
+.container a {
+  position: absolute;
+    color: #ffffff;
+    
+}
+.title {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-size: 40px;
+}
+
+.about, .profile, .gallery, .contact {
+  position: absolute;
+  left: 30px;
+  font-size: 25px;
+}
+.about{
+  top: 100px;
+}
+.profile{
+  top: 140px;
+}
+.gallery{
+  top: 180px;
+}
+.contact{
+  top: 220px;
+}
+
+.links{  
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff
+}
+/* .about, .profile, .gallery, .contact{
+  color: #ffffff;
+} */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -252,15 +297,15 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
+  /* .grid {
     grid-template-columns: repeat(2, 50%);
-  }
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  /* .vercelLogo {
     filter: invert(1);
-  }
+  } */
 
   .logo,
   .thirteen img {
