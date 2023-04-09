@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
-// import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 import styles from '@/styles/Home.module.css'
 import styled from "styled-components";
 
@@ -32,7 +32,6 @@ export default function Home() {
                 // height={24}
                 // priority
               />
-              {/* <div className={styles.icon}><MenuIcon/></div> */}
               <div className={styles.title}>
                 <Link href="/">MITHUAMI</Link>
               </div>
@@ -41,13 +40,13 @@ export default function Home() {
                 <Link href="/about">ABOUT</Link>
               </div>
               <div className={styles.profile}>
-                <Link href="/profile" classname= "profile">PROFILE</Link>
+                <Link href="/profile">PROFILE</Link>
               </div>
               <div className={styles.gallery}>
-                <Link href="/gallery" classname= "gallery">GALLERY</Link>
+                <Link href="/gallery">GALLERY</Link>
               </div>
               <div className={styles.contact}>
-                <Link href="/contact"classname= "contact">CONTACT</Link>
+                <Link href="/contact">CONTACT</Link>
               </div>
           {/* </div> */}
         {/* </div> */}
