@@ -31,9 +31,10 @@
     letter-spacing: 0.05em;
 }
 .detail{
+    font-family: "Noto Sans JP";
     margin: 40px auto;
     font-size: 18px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     line-height: 1.7;
 
 }

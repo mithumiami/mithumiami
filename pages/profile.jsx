@@ -29,7 +29,7 @@ function Profile() {
                 </div>
                 <div className= {styles.detail}>
                     趣味<br/>
-                    ゲーム...valorant, lol<br/>
+                    ゲーム...valorant, ポケモン, lol<br/>
                     アイドル...欅坂46, 日向坂46<br/>
                     綺麗な景色や展示を見に行くこと<br/>       
                 </div>
