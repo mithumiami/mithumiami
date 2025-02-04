@@ -17,7 +17,7 @@ function About() {
         <div className={styles.container}>
             <div className={styles.title}>HOBBIES</div>
             <Box sx={{ width: '100%' }}>
-            <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }} justifyContent="center" className={styles.row}>
+            {/* <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }} justifyContent="center" className={styles.row}>
                 <Grid item xs={6}>
                     <ReactPlayer className={styles.youtube} url='https://www.youtube.com/watch?v=x40N9cvZ2mM' />
                 </Grid>
@@ -30,7 +30,7 @@ function About() {
                 <Grid item xs={6}>
                     <ReactPlayer className={styles.youtube} url='https://youtu.be/QiALuun2SA8' />
                 </Grid>
-            </Grid>
+            </Grid> */}
             </Box>
         </div>
         </>
