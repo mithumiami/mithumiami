@@ -10,6 +10,14 @@
     text-align: center;
     letter-spacing: 0.15em;
 }
+.row{
+    width: 90vw;
+    justify-content: center;
+    margin: 20px auto;
+}
+.youtube{
+    width: 50%;
+}
 .imagebox{
     margin: 0 auto;
     position: relative;
