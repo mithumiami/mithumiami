@@ -1,13 +1,11 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
-import ReactPlayer from 'react-player'
-import Link from 'next/link'
 import styles from '@/styles/About.module.css'
-import styled from "styled-components";
+// import styled from "styled-components";
 
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
+// import Grid from '@mui/material/Grid';
+// import Paper from '@mui/material/Paper';
 
 
 function About() {
